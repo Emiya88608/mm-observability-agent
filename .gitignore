@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Generated data and experiment outputs
+data/
+artifacts/
+outputs/
+runs/
+wandb/
+
+# Model weights and checkpoints
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.bin
+
+# Logs and OS files
+*.log
+.DS_Store
